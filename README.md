@@ -1,1 +1,1 @@
-A nice useless coll project
+A nice useless collection of WebDev projects
