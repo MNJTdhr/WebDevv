@@ -5,9 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/jpg" href="logo\fevicon_vs.png">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Forms</title>
 </head>
 <body>
-    
+    <h1>Forms</h1>
+    <form action="" method="post">
+        <div>
+            <label for="namee">Enter Username</label>
+            <input type="text" name="username" placeholder="Enter username" id="namee">
+        </div>
+        <div>
+            <input type="radio" name="gender" id="male">
+            <label for="male" name="gender">male</label>
+            <input type="radio" name="gender" id="female">
+            <label for="female" name="gender">female</label>
+        </div>
+        <div>
+            <input type="checkbox" name="paybox" id="payment">
+            <label for="payment">Paid</label>
+        </div>
+        <div>
+            <label for="commbox"></label>
+            <textarea name="Textt" id="commbox" rows="4" cols="50">Enter comment here...</textarea>
+        </div>
+        <div>
+            <select name="opCourse" id="opCourse">
+                <option value="BCA">BCA</option>
+                <option value="MCA">MCA</option>
+                <option value="Btech">Btech</option>
+                <option value="Mtech">Mtech</option>
+            </select>
+        </div>
+    </form>
 </body>
 </html>
