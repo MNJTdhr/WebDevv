@@ -1,3 +1,9 @@
 body{
     text-align: center;
 }
+#heading{
+    color: azure;
+}
+.bg-color{
+    background-color: rgb(0, 172, 115);
+}
