@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,12 +8,13 @@
     <link rel="stylesheet" href="style.css">
     <title>Forms</title>
 </head>
+
 <body>
     <h1>Forms</h1>
     <form action="" method="post">
         <div>
             <label for="namee">Enter Username</label>
-            <input type="text" name="username" placeholder="Enter username" id="namee">
+            <input type="text" name="username" placeholder="Enter username" id="namee" autofocus>
         </div>
         <div>
             <input type="radio" name="gender" id="male">
@@ -21,7 +23,7 @@
             <label for="female" name="gender">female</label>
         </div>
         <div>
-            <input type="checkbox" name="paybox" id="payment">
+            <input type="checkbox" name="paybox" id="payment" required>
             <label for="payment">Paid</label>
         </div>
         <div>
@@ -36,6 +38,17 @@
                 <option value="Mtech">Mtech</option>
             </select>
         </div>
+        <div>
+            <br>
+            <label for="phon">Phone Number: </label>
+            <input type="tel" id="phon" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" maxlength="10" placeholder="123-456-7890">
+        </div>
+        <div>
+            <br>
+            <button type="submit" style="border-radius: 100px;">Submit</button>
+            <button type="reset" style="border-radius: 100px;">Reset</button>
+        </div>
     </form>
 </body>
+
 </html>
