@@ -1,3 +1,41 @@
 body{
     text-align: center;
 }
+
+#red{
+    color: red;
+}
+
+header p{
+    background-color: aqua;
+}
+
+.green{
+    color: rgb(160, 255, 160);
+}
+
+div p{      /* this covers any para under div */
+    background-color: brown;
+}
+
+div > p{    /* this covers only decendent para under div or child selsctor*/
+    background-color: chocolate;
+}
+
+*{
+    /* Universal selector */
+    font-size: 30px;
+    font-style: italic;
+}
+
+a:link {
+    color: green;
+}
+
+a:active{
+    background-color: red;
+}
+
+a:hover{
+    background-color: yellow;
+}
