@@ -1,3 +1,11 @@
 body{
     text-align: center;
 }
+nav{
+    background-color: aquamarine;
+}
+footer{
+    background-color: blueviolet;
+    color: aliceblue;
+    padding: 10px 10px 10px 10px;
+}
