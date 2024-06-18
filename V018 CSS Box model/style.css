@@ -1,3 +1,36 @@
 body{
     text-align: center;
 }
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.box{
+    font-style: italic;
+}
+
+.box1{
+    background-color: aqua;
+    border: 6px solid indigo;
+    color: brown;
+    padding: 10px;
+    margin: 30px;
+}
+
+.box2{
+    background-color: aquamarine;
+    border: 6px inset purple;
+    color: crimson;
+    padding: 10px;
+    margin: 30px;
+}
+
+.box3{
+    background-color: aquamarine;
+    border: 6px outset slateblue;
+    color: crimson;
+    padding: 10px;
+    margin: 30px;
+}
