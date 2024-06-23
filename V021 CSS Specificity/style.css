@@ -1,3 +1,25 @@
 body{
     text-align: center;
 }
+
+#clid{
+    color: cadetblue
+}
+
+.cl1{
+    color: blue;
+}
+.cl2{
+    color: blueviolet !important; 
+}
+.cl3{
+    color: brown;
+}
+
+h1{
+    color: aquamarine;
+}
+
+*{
+    color: darkgreen;
+}
